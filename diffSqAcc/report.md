@@ -5,6 +5,7 @@
 
 ## System level bring-up
 I use PYNQ to implement the design.
+![](https://github.com/whoami90506/MSoC-Self-Paced/raw/master/diffSqAcc/image/blockDesign.png)
 
 ## Improvement 
 I try to change the interface of two vectors from AXI Lite to master AXI. The binary files are in github.

@@ -6,6 +6,8 @@
 ## System level bring-up
 I use PYNQ to implement the design. All of the interface is AXI Lite.
 
+![](https://github.com/whoami90506/MSoC-Self-Paced/raw/master/rsErasure/image/blockDesign.png)
+
 ## Improvement
 Since the lengths of input vectors are only 4, I use `array_partition` to change to 4 individual registers. Remove the memory protocol can largely reduce the latency from 1994 cycles to 25 cycles.
 

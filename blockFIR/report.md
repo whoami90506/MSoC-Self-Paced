@@ -6,6 +6,8 @@
 ## System level bring-up
 I use PYNQ to implement the design. All of the interface is AXI Lite.
 
+![](https://github.com/whoami90506/MSoC-Self-Paced/raw/master/blockFIR/image/blockDesign.png)
+
 ## HLS screenshot
 
 ### Synthesis
