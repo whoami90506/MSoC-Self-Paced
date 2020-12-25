@@ -1,0 +1,11 @@
+Fri Dec 25 12:47:07 2020: Server was asked to start on port: '34233'
+Fri Dec 25 12:47:07 2020: Server is using token UUID: '3c2cda32-5568-4434-83e3-0f05b5e15565'
+Fri Dec 25 12:47:07 2020: Attempting to start server on port '34233'
+Fri Dec 25 12:47:07 2020: XRC main fifo: created main fifo '/tmp/xrcmain3c2cda32-5568-4434-83e3-0f05b5e15565', fd read = 12
+Fri Dec 25 12:47:07 2020: Running Rule Check Server
+Fri Dec 25 12:47:07 2020: Version 1.5.1
+Fri Dec 25 12:47:07 2020: Rule Check Server: Accepted socket connection from client
+Fri Dec 25 12:47:07 2020: EXCHANGE_TOKEN received, server token: 3c2cda32-5568-4434-83e3-0f05b5e15565, passed token: 3c2cda32-5568-4434-83e3-0f05b5e15565
+Fri Dec 25 12:47:07 2020: SESSION_MGR: creating session with session uuid: '1d5b38b0-c1e0-4b34-b8be-1f101a31d745' and name 'v++_compile_runOnfpga_hw_emu'
+Fri Dec 25 12:47:20 2020: Rule Check Server: Accepted socket connection from client
+Fri Dec 25 12:47:27 2020: SESSION_MGR: closing session for UUID '1d5b38b0-c1e0-4b34-b8be-1f101a31d745' with name 'v++_compile_runOnfpga_hw_emu'

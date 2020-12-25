@@ -1,0 +1,17 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ link can be found at:
+	Reports: /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/sw_emu/report_dir/link
+	Log files: /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/sw_emu/log_dir/link
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/sw_emu/runOnfpga_sw_emu.xclbin.link_summary, at Fri Dec 25 12:29:32 2020
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Fri Dec 25 12:29:32 2020
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/sw_emu/report_dir/link/v++_link_runOnfpga_sw_emu_guidance.html', at Fri Dec 25 12:29:33 2020
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/xilinx_u50_gen3x16_xdma_201920_3.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/hw/hw.xsa'
+INFO: [v++ 60-629] Linking for software emulation target
+INFO: [v++ 60-423]   Target device: xilinx_u50_gen3x16_xdma_201920_3
+INFO: [v++ 60-645] kernel flags are '-g -D PARALLELISATION=8 -I /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files -g'
+INFO: [v++ 60-586] Created ././../build/my_opt/kernel_8/sw_emu/runOnfpga_sw_emu.xclbin
+INFO: [v++ 60-1307] Run completed. Additional information can be found in:
+	Guidance: /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/sw_emu/report_dir/link/v++_link_runOnfpga_sw_emu_guidance.html
+	Steps Log File: /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/sw_emu/log_dir/link/link.steps.log
+
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 8s

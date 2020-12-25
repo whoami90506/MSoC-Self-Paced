@@ -1,0 +1,11 @@
+Kernel trace events
+Device, Binary, Kernel, Compute Unit, Function, Data Type, Index, Start Time (ms), End Time (ms), Value
+xilinx_u50_gen3x16_xdma_201920_3-0,runOnfpga_hw_emu,runOnfpga,runOnfpga_1,top,top,0,0.051512,0.106240,0
+xilinx_u50_gen3x16_xdma_201920_3-0,runOnfpga_hw_emu,runOnfpga,runOnfpga_1,top,top,0,0.107900,0.126337,0
+xilinx_u50_gen3x16_xdma_201920_3-0,runOnfpga_hw_emu,runOnfpga,runOnfpga_1,top,top,0,0.127981,0.146441,0
+xilinx_u50_gen3x16_xdma_201920_3-0,runOnfpga_hw_emu,runOnfpga,runOnfpga_1,top,top,0,0.148178,0.166645,0
+xilinx_u50_gen3x16_xdma_201920_3-0,runOnfpga_hw_emu,runOnfpga,runOnfpga_1,top,top,0,0.168375,0.186832,0
+xilinx_u50_gen3x16_xdma_201920_3-0,runOnfpga_hw_emu,runOnfpga,runOnfpga_1,top,top,0,0.188573,0.207020,0
+xilinx_u50_gen3x16_xdma_201920_3-0,runOnfpga_hw_emu,runOnfpga,runOnfpga_1,top,top,0,0.208770,0.227220,0
+xilinx_u50_gen3x16_xdma_201920_3-0,runOnfpga_hw_emu,runOnfpga,runOnfpga_1,top,top,0,0.228977,0.247454,0
+xilinx_u50_gen3x16_xdma_201920_3-0,runOnfpga_hw_emu,runOnfpga,runOnfpga_1,top,top,0,0.249175,0.267645,0

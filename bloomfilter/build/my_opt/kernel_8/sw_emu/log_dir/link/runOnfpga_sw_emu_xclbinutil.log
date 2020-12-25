@@ -1,0 +1,32 @@
+XRT Build Version: 2.7.766 (2020.1_PU1)
+       Build Date: 2020-08-17 16:52:05
+          Hash ID: 19bc791a7d9b54ecc23644649c3ea2c2ea31821c
+Creating a default 'in-memory' xclbin image.
+
+Section: 'BITSTREAM'(0) was successfully added.
+Size   : 624080 bytes
+Format : RAW
+File   : '/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/sw_emu/temp_dir/link/int/runOnfpga_sw_emu.so'
+WARNING: Skipping CLOCK_FREQ_TOPOLOGY section for count size is zero.
+WARNING: Section 'CLOCK_FREQ_TOPOLOGY' content is empty.  No data in the given JSON file.
+
+Section: 'CLOCK_FREQ_TOPOLOGY'(11) was empty.  No action taken.
+Format : JSON
+File   : '/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/sw_emu/temp_dir/link/int/runOnfpga_sw_emu_xml.rtd'
+
+Section: 'BUILD_METADATA'(14) was successfully added.
+Size   : 2707 bytes
+Format : JSON
+File   : '/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/sw_emu/temp_dir/link/int/runOnfpga_sw_emu_build.rtd'
+
+Section: 'EMBEDDED_METADATA'(2) was successfully added.
+Size   : 2676 bytes
+Format : RAW
+File   : '/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/sw_emu/temp_dir/link/int/runOnfpga_sw_emu.xml'
+
+Section: 'DEBUG_DATA'(4) was successfully added.
+Size   : 0 bytes
+Format : RAW
+File   : '/dev/null'
+Successfully wrote (634025 bytes) to the output file: /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/sw_emu/temp_dir/link/int/runOnfpga_sw_emu.xclbin
+Leaving xclbinutil.

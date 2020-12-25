@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="runOnfpga" LaunchDir="/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/sw_emu/temp_dir/runOnfpga_sw_emu/runOnfpga" FlowId="Build_IP" FromStepId="vivado_hls" ToStepId="vivado_hls"/>
+</Runs>
+

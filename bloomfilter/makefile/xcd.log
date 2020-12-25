@@ -1,0 +1,11 @@
+Fri Dec 25 12:47:06 2020: Server was asked to start on port: '43203'
+Fri Dec 25 12:47:06 2020: Server is using token UUID: '824d5540-b81f-4bf3-9187-332beb5bfab7'
+Fri Dec 25 12:47:06 2020: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Dec 25 12:47:06 2020: Attempting to start server on port '43203'
+Fri Dec 25 12:47:06 2020: XCD main fifo: created main fifo '/tmp/xcdmain824d5540-b81f-4bf3-9187-332beb5bfab7', fd read = 12
+Fri Dec 25 12:47:06 2020: Running Dispatch Server
+Fri Dec 25 12:47:06 2020: Version 1.0.1
+Fri Dec 25 12:47:06 2020: Dispatch Server: Accepted socket connection from client
+Fri Dec 25 12:47:06 2020: EXCHANGE_TOKEN received, server token: 824d5540-b81f-4bf3-9187-332beb5bfab7, passed token: 824d5540-b81f-4bf3-9187-332beb5bfab7
+Fri Dec 25 12:47:06 2020: SESSION_MGR: creating session with session uuid: '7a7dc8eb-c125-4d93-9f5a-034b3f3657ca' and name 'v++_compile_runOnfpga_hw_emu'
+Fri Dec 25 12:47:27 2020: SESSION_MGR: closing session for UUID '7a7dc8eb-c125-4d93-9f5a-034b3f3657ca' with name 'v++_compile_runOnfpga_hw_emu'

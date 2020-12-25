@@ -1,0 +1,200 @@
+<ENTRY>
+{
+ "session": {
+  "name": "v++_compile_runOnfpga_hw_emu",
+  "pid": "0",
+  "uuid": "26b2b850-f1d8-4fea-b865-c09e57b64fad",
+  "description": "",
+  "timestamp": "0",
+  "outputFiles": [
+   {
+    "type": "JSON",
+    "mode": "CLIENT_ONLY",
+    "path": "/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/.tlog/v++_compile_runOnfpga_hw_emu.xtl",
+    "continuous": true
+   },
+   {
+    "type": "JSON",
+    "mode": "LOCAL_IF_NO_CONNECT",
+    "path": "/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/runOnfpga_hw_emu.xo.compile_summary",
+    "continuous": true
+   },
+   {
+    "type": "BINARY_PROTOBUF",
+    "mode": "LOCAL_IF_NO_CONNECT",
+    "path": "/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/runOnfpga_hw_emu.xo.compile_summary.pb",
+    "continuous": true
+   }
+  ]
+ },
+ "thisFile": "/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/.tlog/v++_compile_runOnfpga_hw_emu.xtl",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Fri Dec 25 12:34:41 2020",
+ "timestampMillis": "1608870881430",
+ "buildStep": {
+  "cmdId": "1098c711-7ed7-4fd8-a274-95951277ea40",
+  "name": "v++",
+  "logFile": "/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga_hw_emu.steps.log",
+  "commandLine": "/opt/Xilinx/Vitis/2019.2/bin/unwrapped/lnx64.o/v++  --xp \"vivado_prop:run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --xp vivado_param:project.writeIntermediateCheckpoints=1 --xp \"param:compiler.reportFailfast=pre_opt_design {__KERNEL_NAMES__} post_opt_design {__OCL_TOP__}\" --xp \"misc:report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --xp \"misc:report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -c -g -t hw_emu -R 1 -k runOnfpga --platform xilinx_u50_gen3x16_xdma_201920_3 --profile_kernel data:all:all:all --profile_kernel stall:all:all:all --trace_memory DDR[3] --save-temps --temp_dir ././../build/my_opt/kernel_8/hw_emu/temp_dir --report_dir ././../build/my_opt/kernel_8/hw_emu/report_dir --log_dir ././../build/my_opt/kernel_8/hw_emu/log_dir -I./../reference_files -DPARALLELISATION=8 ./../reference_files/compute_score_fpga_kernel_opt.cpp -o ././../build/my_opt/kernel_8/hw_emu/runOnfpga_hw_emu.xo ",
+  "args": [
+   "-c",
+   "-g",
+   "-t",
+   "hw_emu",
+   "-R",
+   "1",
+   "-k",
+   "runOnfpga",
+   "--platform",
+   "xilinx_u50_gen3x16_xdma_201920_3",
+   "--profile_kernel",
+   "data:all:all:all",
+   "--profile_kernel",
+   "stall:all:all:all",
+   "--trace_memory",
+   "DDR[3]",
+   "--save-temps",
+   "--temp_dir",
+   "././../build/my_opt/kernel_8/hw_emu/temp_dir",
+   "--report_dir",
+   "././../build/my_opt/kernel_8/hw_emu/report_dir",
+   "--log_dir",
+   "././../build/my_opt/kernel_8/hw_emu/log_dir",
+   "-I./../reference_files",
+   "-DPARALLELISATION=8",
+   "./../reference_files/compute_score_fpga_kernel_opt.cpp",
+   "-o",
+   "././../build/my_opt/kernel_8/hw_emu/runOnfpga_hw_emu.xo"
+  ],
+  "iniFiles": []
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Dec 25 12:34:41 2020",
+ "timestampMillis": "1608870881431",
+ "status": {
+  "cmdId": "1098c711-7ed7-4fd8-a274-95951277ea40",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Fri Dec 25 12:34:45 2020",
+ "timestampMillis": "1608870885851",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u50_gen3x16_xdma_201920_3.xpfm",
+  "hardwareDsa": "hw.xsa",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW_EMU",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "runOnfpga",
+     "file": "/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/runOnfpga_hw_emu.xo",
+     "reports": []
+    },
+    "sources": [
+     "/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp"
+    ],
+    "cuNames": []
+   }
+  ]
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Dec 25 12:34:45 2020",
+ "timestampMillis": "1608870885854",
+ "buildStep": {
+  "cmdId": "0f01f4d7-7f8f-4ce6-91ed-a7ef6931202a",
+  "name": "vivado_hls",
+  "logFile": "/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/vivado_hls.log",
+  "commandLine": "vivado_hls -f /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga.tcl -messageDb vivado_hls.pb",
+  "args": [
+   "vivado_hls",
+   "-f",
+   "/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga.tcl",
+   "-messageDb",
+   "vivado_hls.pb"
+  ],
+  "iniFiles": []
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Dec 25 12:34:45 2020",
+ "timestampMillis": "1608870885854",
+ "status": {
+  "cmdId": "0f01f4d7-7f8f-4ce6-91ed-a7ef6931202a",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Dec 25 12:35:03 2020",
+ "timestampMillis": "1608870903528",
+ "status": {
+  "cmdId": "0f01f4d7-7f8f-4ce6-91ed-a7ef6931202a",
+  "state": "CS_FAILED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Dec 25 12:35:03 2020",
+ "timestampMillis": "1608870903642",
+ "report": {
+  "path": "/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/report_dir/runOnfpga_hw_emu/v++_compile_runOnfpga_hw_emu_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Dec 25 12:35:03 2020",
+ "timestampMillis": "1608870903643",
+ "report": {
+  "path": "/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/v++_compile_runOnfpga_hw_emu_guidance.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Dec 25 12:35:03 2020",
+ "timestampMillis": "1608870903643",
+ "status": {
+  "cmdId": "1098c711-7ed7-4fd8-a274-95951277ea40",
+  "state": "CS_FAILED"
+ }
+}
+</ENTRY>

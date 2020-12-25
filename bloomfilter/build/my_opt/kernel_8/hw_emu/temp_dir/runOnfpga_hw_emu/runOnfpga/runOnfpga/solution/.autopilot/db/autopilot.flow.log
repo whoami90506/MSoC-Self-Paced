@@ -1,0 +1,255 @@
+INFO-FLOW: Workspace /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution opened at Fri Dec 25 12:34:48 CST 2020
+Execute     set_part xcu50-fsvh2104-2-e 
+Execute       ap_part_info -name xcu50-fsvh2104-2-e -data single -quiet 
+Command       ap_part_info done; 1.28 sec.
+Execute       ap_part_info -name xcu50-fsvh2104-2-e -data info 
+Execute       add_library xilinx/virtexuplus/virtexuplus:xcu50:-fsvh2104:-2-e 
+Execute         get_default_platform 
+Execute         open_platform DefaultPlatform 
+Execute         import_lib /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/virtexuplus/virtexuplus 
+Execute           source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/common/xilinx.lib 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/xilinx_interface.lib 
+Execute               source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/plb46.lib 
+Execute               source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/fsl.lib 
+Execute               source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/axi4.lib 
+Execute               source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/maxi.lib 
+Execute               source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/saxilite.lib 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/common/dsp48.lib 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/ip/xfir.lib 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/ip/dds_compiler.lib 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/ip/xfft.lib 
+Execute           source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/common/xilinx.hlp 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/common/target_info.tcl 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute               source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/maxi.hlp 
+Execute               source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/common/dsp48.hlp 
+Execute           source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/virtexuplus/dsp48e2.hlp 
+Execute           source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/common/xilinx.hlp 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/common/target_info.tcl 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute               source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/maxi.hlp 
+Execute               source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/common/dsp48.hlp 
+Execute         source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/virtexuplus/virtexuplus.gen 
+Execute           source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/common/xilinx.gen 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/plb46.gen 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/fsl.gen 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/axi4.gen 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute               source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/saxilite.gen 
+Execute               source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/maxi.gen 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/ip/util.gen 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/ip/xfft.gen 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/ip/xfir.gen 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/common/dsp48.gen 
+Execute         ap_part_info -data single -name xcu50-fsvh2104-2-e 
+Execute         ap_part_info -name xcu50-fsvh2104-2-e -data resources 
+Execute         ap_part_info -name xcu50-fsvh2104-2-e -data info 
+Execute         ap_part_info -name xcu50-fsvh2104-2-e -data info 
+Execute         config_chip_info -quiet -resource {SLICE 108960} {LUT 871680} {FF 1743360} {DSP48E 5952} {BRAM 2688} {URAM 640} {SLR 2} 
+Execute         ap_part_info -name xcu50-fsvh2104-2-e -data info 
+Execute         config_chip_info -quiet -speed medium 
+Command       add_library done; 0.12 sec.
+Execute       add_library xilinx/virtexuplus/virtexuplus_fpv7 
+Execute         get_default_platform 
+Execute         open_platform DefaultPlatform 
+Execute         import_lib /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/virtexuplus/virtexuplus_fpv7 
+Execute           source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/common/xilinx_fp.lib 
+Execute           source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/common/xilinx_fp.hlp 
+Execute             source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/common/xilinx.hlp 
+Execute               source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/common/target_info.tcl 
+Execute               source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute                 source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/maxi.hlp 
+Execute                 source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/interface/saxilite.hlp 
+Execute               source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/common/dsp48.hlp 
+Execute         source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/virtexuplus/virtexuplus_fpv7.gen 
+Execute           source /opt/Xilinx/Vivado/2019.2/common/technology/xilinx/common/xilinx_fp.gen 
+INFO: [HLS 200-10] Setting target device to 'xcu50-fsvh2104-2-e'
+Execute       ap_part_info -name xcu50-fsvh2104-2-e -data info 
+Execute       get_default_platform 
+Command     set_part done; 1.49 sec.
+Execute     create_clock -period 300.000000MHz -name default 
+Execute       config_clock -quiet -name default -period 3.333 -unit ns -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.333ns.
+Execute     config_sdx -target xocc 
+Execute       send_msg_by_id INFO @200-435@%s%s 'config_sdx -target' config_export -vivado_optimization_level=0 
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_export -vivado_optimization_level=0
+Execute       config_export -vivado_optimization_level=0 
+Execute         get_config_export -vivado_impl_strategy 
+Execute         get_config_export -vivado_phys_opt 
+Execute         send_msg_by_id INFO @200-435@%s%s 'config_export -vivado_optimization_level' config_export -vivado_phys_opt=none 
+INFO: [HLS 200-435] Setting 'config_export -vivado_optimization_level' configuration: config_export -vivado_phys_opt=none
+Execute         config_export -vivado_phys_opt=none 
+Execute       get_config_compile -pipeline_loops 
+Execute       send_msg_by_id INFO @200-435@%s%s 'config_sdx -target' config_compile -pipeline_loops=64 
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_compile -pipeline_loops=64
+Execute       config_compile -pipeline_loops=64 
+INFO: [XFORM 203-1171] Pipeline the innermost loop with trip count more than 64 or its parent loop when its trip count is less than or equal 64.
+Execute       get_config_compile -name_max_length 
+Execute       send_msg_by_id INFO @200-435@%s%s 'config_sdx -target' config_compile -name_max_length=80 
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_compile -name_max_length=80
+Execute       config_compile -name_max_length=80 
+INFO: [XFORM 203-1161] The maximum of name length is set into 80.
+Execute       get_config_schedule -enable_dsp_full_reg 
+Execute       send_msg_by_id INFO @200-435@%s%s 'config_sdx -target' config_schedule -enable_dsp_full_reg=1 
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_schedule -enable_dsp_full_reg=1
+Execute       config_schedule -enable_dsp_full_reg=1 
+Execute       get_config_rtl -register_reset_num 
+Execute       send_msg_by_id INFO @200-435@%s%s 'config_sdx -target' config_rtl -register_reset_num=3 
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_rtl -register_reset_num=3
+Execute       config_rtl -register_reset_num=3 
+Execute       get_config_rtl -module_auto_prefix 
+Execute       send_msg_by_id INFO @200-435@%s%s 'config_sdx -target' config_rtl -module_auto_prefix=1 
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_rtl -module_auto_prefix=1
+Execute       config_rtl -module_auto_prefix=1 
+Execute       get_config_interface -m_axi_addr64 
+Execute       send_msg_by_id INFO @200-435@%s%s 'config_sdx -target' config_interface -m_axi_addr64=1 
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_interface -m_axi_addr64=1
+Execute       config_interface -m_axi_addr64=1 
+Execute       send_msg_by_id INFO @200-435@%s%s 'config_sdx -target' set_clock_uncertainty 27% 
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: set_clock_uncertainty 27%
+Execute       set_clock_uncertainty 27% 
+Execute         get_clock_period -default -name=default 
+Execute         config_clock -quiet -name default -uncertainty 0.9 -unit % 
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 0.9ns.
+Execute     config_rtl -kernel_profile 
+Execute     config_export -vivado_optimization_level 0 
+Execute       get_config_export -vivado_impl_strategy 
+Execute       get_config_export -vivado_phys_opt 
+Execute     config_dataflow -strict_mode warning 
+Execute     config_debug -enable 
+Execute     set_clock_uncertainty 27.000000% 
+Execute       get_clock_period -default -name=default 
+Execute       config_clock -quiet -name default -uncertainty 0.9 -unit % 
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 0.9ns.
+Execute     config_rtl -enable_maxiConservative=1 
+Execute     config_interface -m_axi_addr64 
+Execute     config_export -format ip_catalog -ipname runOnfpga 
+Execute     csynth_design 
+Execute       get_config_compile -dump_cfg 
+Execute       get_config_compile -effort 
+Execute       get_config_compile -enable_clang39 
+Execute       get_config_compile -g 
+Execute       get_config_compile -ng 
+Execute       get_config_compile -opt_fp 
+Execute       get_config_compile -skip_cdt 
+Execute       get_config_compile -skip_syncheck 
+Execute       get_config_compile -skip_transform 
+Execute       get_config_compile -keep_printf 
+Execute       elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
+Execute         get_config_schedule -relax_ii_for_timing 
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+Execute         get_config_schedule -suppress_dependence_error_break 
+INFO: [HLS 200-10] Analyzing design file '/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp' ... 
+INFO-FLOW: Compiling one TU...
+Execute         is_m_axi_addr64 
+INFO-FLOW: Handling /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp as C++
+Execute         ap_part_info -name xcu50-fsvh2104-2-e -data info 
+Execute         is_encrypted /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp 
+Execute         ap_part_info -name xcu50-fsvh2104-2-e -data info 
+INFO-FLOW: Running: GCC PP
+INFO-FLOW: Source preprocessing
+Execute         clang  -fno-limit-debug-info -gcc-toolchain "/opt/Xilinx/Vivado/2019.2/lnx64/tools/gcc" -hls  -fno-exceptions  -D__llvm__  -E "/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp"   -g -DPARALLELISATION=8 -I/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files  -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/opt/Xilinx/Vivado/2019.2/common/technology/autopilot" -I "/opt/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E2__  -o "/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pp.0.cpp" 
+INFO-FLOW: exec /opt/Xilinx/Vivado/2019.2/lnx64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain /opt/Xilinx/Vivado/2019.2/lnx64/tools/gcc -hls -fno-exceptions -D__llvm__ -E /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp -g -DPARALLELISATION=8 -I/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /opt/Xilinx/Vivado/2019.2/common/technology/autopilot -I /opt/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -o /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pp.0.cpp
+Command         clang done; 1.72 sec.
+Execute         tidy_31 xilinx-xfmat-array-geometry /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pp.0.cpp std=gnu++98 
+INFO-FLOW: exec /opt/Xilinx/Vivado/2019.2/lnx64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-xfmat-array-geometry -quiet -fix /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command         tidy_31 done; 0.7 sec.
+INFO-FLOW: Syntax Checking before pre-processing...
+Execute         clang -syntaxcheck -src /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pp.0.cpp  -fno-limit-debug-info -gcc-toolchain "/opt/Xilinx/Vivado/2019.2/lnx64/tools/gcc" -hls  -g -DPARALLELISATION=8 -I/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files  -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/opt/Xilinx/Vivado/2019.2/common/technology/autopilot" -I "/opt/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E2__  "/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pp.0.cpp"  -o "/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/useless.bc"  
+INFO-FLOW: exec /opt/Xilinx/Vivado/2019.2/lnx64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain /opt/Xilinx/Vivado/2019.2/lnx64/tools/gcc -hls -g -DPARALLELISATION=8 -I/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /opt/Xilinx/Vivado/2019.2/common/technology/autopilot -I /opt/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pp.0.cpp -o /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/useless.bc
+Command         clang done; 2.1 sec.
+INFO-FLOW: Done: GCC PP time: 4.5 seconds per iteration
+Execute         source /opt/Xilinx/Vivado/2019.2/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute         source /opt/Xilinx/Vivado/2019.2/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute           source /opt/Xilinx/Vivado/2019.2/tps/tcl/tcllib1.11.1/try/try.tcl 
+Execute         list_core -type functional_unit 
+Execute         tidy_31 xilinx-systemc-detector /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pp.0.cpp std=gnu++98 -directive=/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec /opt/Xilinx/Vivado/2019.2/lnx64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-systemc-detector -import-directive=/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/.systemc_flag -quiet -fix-errors /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command         tidy_31 done; 0.64 sec.
+INFO-FLOW: Running: tidy-3.1 CDT preprocess
+Execute         tidy_31 xilinx-directive2pragma /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pp.0.cpp std=gnu++98 -directive=/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/all.directive.json 
+INFO-FLOW: exec /opt/Xilinx/Vivado/2019.2/lnx64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-directive2pragma -import-directive=/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/all.directive.json -quiet -fix-errors /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command         tidy_31 done; 0.63 sec.
+Execute         get_config_dataflow -strict_mode 
+Execute         ap_eval exec -ignorestderr /opt/Xilinx/Vivado/2019.2/lnx64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/xilinx-dataflow-lawyer.compute_score_fpga_kernel_opt.pp.0.cpp.diag.yml /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0 -fstrict-dataflow > /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/xilinx-dataflow-lawyer.compute_score_fpga_kernel_opt.pp.0.cpp.out.log 2> /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/xilinx-dataflow-lawyer.compute_score_fpga_kernel_opt.pp.0.cpp.err.log 
+Command         ap_eval done; 0.69 sec.
+Execute         source /opt/Xilinx/Vivado/2019.2/tps/tcl/tcllib1.11.1/yaml/yaml.tcl 
+Execute           source /opt/Xilinx/Vivado/2019.2/tps/tcl/tcllib1.11.1/cmdline/cmdline.tcl 
+Execute         get_top
+Execute           get_top 
+Execute         get_files -fullpath
+Execute           get_files -fullpath 
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body: /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp:92:51
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body: /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp:96:51
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body: /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp:103:49
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body: /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp:106:50
+Execute         send_msg_by_id WARNING @200-471@%s%s 4 /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp 
+WARNING: [HLS 200-471] Dataflow form checks found 4 issue(s) in file /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp
+Execute         tidy_31 -errorcheck xilinx-constantarray-param,xilinx-resource-pragma-transformer,xilinx-xfmat-array-geometry /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pp.0.cpp std=gnu++98 
+Execute           ap_eval exec -ignorestderr /opt/Xilinx/Vivado/2019.2/lnx64/tools/clang-3.9-csynth/bin/tidy-3.1 -export-fixes=/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/tidy-3.1.compute_score_fpga_kernel_opt.pp.0.cpp.diag.yml -header-filter=.* -checks=-*,xilinx-constantarray-param,xilinx-resource-pragma-transformer,xilinx-xfmat-array-geometry -quiet -fix-errors /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0 > /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/tidy-3.1.compute_score_fpga_kernel_opt.pp.0.cpp.out.log 2> /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/tidy-3.1.compute_score_fpga_kernel_opt.pp.0.cpp.err.log 
+Command           ap_eval done; 1.13 sec.
+Execute           ap_eval exec -ignorestderr /opt/Xilinx/Vivado/2019.2/lnx64/tools/clang-3.9-csynth/bin/xilinx-legacy-rewriter /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0 > /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/xilinx-legacy-rewriter.compute_score_fpga_kernel_opt.pp.0.cpp.out.log 2> /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/xilinx-legacy-rewriter.compute_score_fpga_kernel_opt.pp.0.cpp.err.log 
+Command           ap_eval done; 0.53 sec.
+Command         tidy_31 done; 1.66 sec.
+INFO-FLOW: Done: tidy-3.1 CDT preprocess time: 3 seconds per iteration
+INFO-FLOW: Pragma Handling...
+Execute         tidy_31 xilinx-ssdm-intrinsics-arguments /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pragma.1.cpp std=gnu++98 
+INFO-FLOW: exec /opt/Xilinx/Vivado/2019.2/lnx64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-ssdm-intrinsics-arguments -quiet -fix-errors /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pragma.1.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command         tidy_31 done; 1.18 sec.
+Execute         ap_part_info -name xcu50-fsvh2104-2-e -data info 
+INFO-FLOW: Processing labels
+Execute         clang -src /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pragma.2.cpp  -fno-limit-debug-info -gcc-toolchain /opt/Xilinx/Vivado/2019.2/lnx64/tools/gcc -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions  -D__llvm__  -w  "/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pragma.2.cpp"  -g -DPARALLELISATION=8 -I/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files  -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/opt/Xilinx/Vivado/2019.2/common/technology/autopilot" -I "/opt/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -g -o "/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.bc" 
+INFO-FLOW: exec /opt/Xilinx/Vivado/2019.2/lnx64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain /opt/Xilinx/Vivado/2019.2/lnx64/tools/gcc -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions -D__llvm__ -w /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.pragma.2.cpp -g -DPARALLELISATION=8 -I/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /opt/Xilinx/Vivado/2019.2/common/technology/autopilot -I /opt/Xilinx/Vivado/2019.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -g -o /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.bc
+Command         clang done; 2.11 sec.
+INFO-FLOW: Linking Debug ...
+Execute         llvm-ld /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/compute_score_fpga_kernel_opt.g.bc -hls-opt -except-internalize runOnfpga -L/opt/Xilinx/Vivado/2019.2/lnx64/lib -lhlsm -lhlsmc++ -o /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/a.g 
+Command         llvm-ld done; 0.87 sec.
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 965.211 ; gain = 532.145 ; free physical = 10376 ; free virtual = 16359
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 965.211 ; gain = 532.145 ; free physical = 10376 ; free virtual = 16359
+Execute         get_config_sdx -target 
+Execute         get_config_rtl -kernel_profile 
+Execute         opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
+Execute           cleanup_all_models 
+INFO: [HLS 200-10] Starting code transformations ...
+Execute           transform -promote-dbg-pointer /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/a.pp.bc -o /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/a.pp.0.bc -f 
+Execute           llvm-ld /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/a.pp.0.bc -disable-opt -L/opt/Xilinx/Vivado/2019.2/lnx64/lib -lfloatconversion -o /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/a.g.0 
+Command           llvm-ld done; 0.88 sec.
+INFO-FLOW: Running Standard Transforms...
+Execute           transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -mem2reg -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -prune-eh -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top runOnfpga -deadargelim -mem2reg -instcombine -dce -presyn-prepare -auto-rom-infer -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -func-inst -deadargelim -auto-shift-reg-idiom -promote-dbg-pointer -norm-name /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/a.g.0.bc -o /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/a.g.1.bc -f -phase std-opt 
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 965.211 ; gain = 532.145 ; free physical = 10368 ; free virtual = 16353
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO-FLOW: Checking Synthesizability 1/2..
+Execute           transform -hls -syn-check -check-rec-only -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -function-uniquify -directive-preproc -mem2reg -dse -dce -auto-rom-infer -dce -pag -array-normalize -instcombine -dce -warn-fifo-pointer -array-seg-normalize -instcombine -dce -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -resolve-double-ptr -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -function-uniquify -directive-preproc -mem2reg -dse -dce -globaldce -check-dspbuiltin /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/a.g.1.bc -o /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/a.g.2.prechk.bc -f 
+INFO: [XFORM 203-602] Inlining function 'MurmurHash2' into 'compute_hash_flags' (/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp:63) automatically.
+INFO-FLOW: Checking Synthesizability 2/2..
+Execute           transform -syn-check /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/a.g.2.prechk.bc -o /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/a.g.2.bc -f -phase syn-check 
+WARNING: [SYNCHK 200-23] /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/hls_stream_utils.h:46: variable-indexed range selection may cause suboptimal QoR.
+INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 965.211 ; gain = 532.145 ; free physical = 10366 ; free virtual = 16350
+INFO-FLOW: Compiler optimizing ...
+INFO-FLOW: Share syncheck's 1.bc for syn flow: copy /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/a.g.1.bc to /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/a.o.1.bc
+INFO-FLOW: Presyn 1...
+Execute           transform -hls -tmp /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db -interface-port-rename -type-info -function-uniquify -directive-preproc -mem2reg -dse -dce -disaggr -scalarrepl -norm-name -deadargelim -mem2reg -instcombine -dce -simplifycfg -auto-rom-infer -dce -function-uniquify -resource-proc -clib-intrinsic-prepare -dce -func-buffer -dce -pag -array-normalize -func-legal -instcombine -gvn -constprop -dce -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -ptrArgReplace -mem2reg -dce -array-seg-normalize -deadargelim -instcombine -dce -pointer-simplify -dce -port-alignment -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -find-region -instcombine -auto-loop-pipeline -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -auto-loop-unroll -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -array-promote -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -auto-par -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -duplicate-dataflow-processes -globaldce -instcombine -array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -dce -global-constprop -deadargelim -mem2reg -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -array-promote -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -mem-intrinsic-preproc -dce -global-internalize -global-privatize -mem2reg -globaldce -promote-global-argument -ptrArgReplace -mem2reg -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -dce -norm-name -function-inline -complex-op-raise -inst-simplify -globaldce -func-inst -constprop -instcombine -simplifycfg -dce -func-legal -dce -loop-bound -arraycheck -bitwidthmin -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -loop-stream -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -check-dataflow-syntax -legalize-stream-variable -legalize-global -extract-subproc -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -deadargelim -annotate-dataflow-channels -scalar-propagation -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -function-uniquify -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -norm-name /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/a.o.1.bc -o /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/runOnfpga/solution/.autopilot/db/a.o.1.tmp.bc -f 
+INFO: [XFORM 203-510] Pipelining loop 'axiToStreamLoop' (/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/hls_stream_utils.h:11) in function 'hls_stream::buffer<ap_uint<512> >' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'streamToAxiLoop' (/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/hls_stream_utils.h:19) in function 'hls_stream::buffer<ap_uint<512> >.1' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-2.1' (/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/hls_stream_utils.h:32) in function 'hls_stream::resize<256, 512>' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-2.1' (/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/hls_stream_utils.h:45) in function 'hls_stream::resize<512, 64>' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'compute_flags' (/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp:51) in function 'compute_hash_flags' automatically.
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'read_bloom_filter' (/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp:132) in function 'runOnfpga' for pipelining.
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'compute_flags' (/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp:51) in function 'compute_hash_flags' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1.1' (/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp:135) in function 'runOnfpga' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'compute_hash_flags_loop' (/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp:57) in function 'compute_hash_flags' completely with a factor of 8.
+INFO: [XFORM 203-101] Partitioning array 'bloom_filter_local'  in dimension 1 completely.
+ERROR: [XFORM 203-103] Array 'bloom_filter_local' : partitioned elements number (16384) has exeeded the threshold (1024), which may cause long run-time.
+Command           transform done; error code: 1; 0.15 sec.
+ERROR: [HLS 200-70] Pre-synthesis failed.
+Command         opt_and_import_c done; error code: 2; 1.21 sec.
+Command       elaborate done; error code: 2; 13.79 sec.
+Command     csynth_design done; error code: 2; 13.8 sec.
+Command   ap_source done; error code: 1; 15.32 sec.
+Execute   cleanup_all 

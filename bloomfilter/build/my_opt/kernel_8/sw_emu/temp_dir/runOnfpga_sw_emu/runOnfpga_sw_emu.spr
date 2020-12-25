@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="runOnfpga_sw_emu" dir="">
+  <FileSets>
+    <FileSet Name="kernel_runOnfpga" Type="DesignSrcs">
+      <File Path="/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp"/>
+      <Config/>
+    </FileSet>
+  </FileSets>
+  <Runs/>
+</project>

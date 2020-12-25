@@ -1,0 +1,189 @@
+Profile Summary
+Generated on: 2020-12-25 09:34:15
+Msec since Epoch: 1608860055999
+Profiled application: host
+Target platform: 
+Tool version: 2020.1
+XRT build version: 2.7.766
+Build version branch: 2020.1_PU1
+Build version hash: 19bc791a7d9b54ecc23644649c3ea2c2ea31821c
+Build version date: N/A 
+Target devices: xilinx_u50_gen3x16_xdma_201920_3-0
+Flow mode: Hardware Emulation
+
+OpenCL API Calls
+API Name,Number Of Calls,Total Time (ms),Minimum Time (ms),Average Time (ms),Maximum Time (ms),
+clWaitForEvents,8,87416,0.362063,10927,43911.9,
+clReleaseContext,1,71618.8,71618.8,71618.8,71618.8,
+clCreateProgramWithBinary,1,24561,24561,24561,24561,
+clReleaseProgram,1,1775,1775,1775,1775,
+clEnqueueTask,9,527.062,7.98245,58.5625,98.4874,
+clRetainEvent,26,35.4243,0.002748,1.36247,35.1065,
+clCreateBuffer,3,4.97669,0.158245,1.6589,4.60494,
+clReleaseKernel,1,0.998039,0.998039,0.998039,0.998039,
+clCreateKernel,1,0.865665,0.865665,0.865665,0.865665,
+clEnqueueMigrateMemObjects,18,0.775701,0.014876,0.0430945,0.125246,
+clReleaseEvent,52,0.281102,0.002496,0.00540581,0.020834,
+clReleaseMemObject,59,0.262768,0.002514,0.00445369,0.006087,
+clSetKernelArg,37,0.210579,0.002614,0.00569132,0.009761,
+clRetainMemObject,40,0.187702,0.002511,0.00469255,0.0216,
+clCreateContext,1,0.025253,0.025253,0.025253,0.025253,
+clGetPlatformIDs,2,0.02262,0.003102,0.01131,0.019518,
+clGetEventProfilingInfo,2,0.015365,0.005258,0.0076825,0.010107,
+clReleaseDevice,2,0.013868,0.003107,0.006934,0.010761,
+clReleaseCommandQueue,1,0.011471,0.011471,0.011471,0.011471,
+clGetDeviceIDs,2,0.00643,0.002661,0.003215,0.003769,
+clGetPlatformInfo,2,0.005879,0.002617,0.0029395,0.003262,
+clCreateCommandQueue,1,0.005591,0.005591,0.005591,0.005591,
+clRetainDevice,2,0.005307,0.002502,0.0026535,0.002805,
+
+
+Kernel Execution (includes estimated device times)
+Kernel,Number Of Enqueues,Total Time (ms),Minimum Time (ms),Average Time (ms),Maximum Time (ms),
+runOnfpga,9,1.21486,0.06234,0.134985,0.207372,
+
+
+Compute Unit Utilization (includes estimated device times)
+Device,Compute Unit,Kernel,Global Work Size,Local Work Size,Number Of Calls,Dataflow Execution,Max Overlapping Executions,Dataflow Acceleration,Total Time (ms),Minimum Time (ms),Average Time (ms),Maximum Time (ms),Clock Frequency (MHz),
+xilinx_u50_gen3x16_xdma_201920_3-0,runOnfpga_1,runOnfpga,1:1:1,1:1:1,9,No,1,1.000000x,0.20308,0.01844,0.0225644,0.05474,300,
+
+
+Data Transfer: Host to Global Memory
+Context:Number of Devices,Transfer Type,Number Of Buffer Transfers,Transfer Rate (MB/s),Average Bandwidth Utilization (%),Average Buffer Size (KB),Total Time (ms),Average Time (ms),
+context0:1,READ,8,N/A,N/A,43.84,N/A,N/A,
+context0:1,WRITE,9,N/A,N/A,163.157,N/A,N/A,
+
+
+Data Transfer: Kernels to Global Memory
+Device,Compute Unit/Port Name,Kernel Arguments,Memory Resources,Transfer Type,Number Of Transfers,Transfer Rate (MB/s),Average Bandwidth Utilization (%),Average Size (KB),Average Latency (ns),
+xilinx_u50_gen3x16_xdma_201920_3-0,runOnfpga_1/m_axi_maxiport0,output_flags|input_words,HBM[0],READ,1376,19200,100,1.01953,121.272,
+xilinx_u50_gen3x16_xdma_201920_3-0,runOnfpga_1/m_axi_maxiport0,output_flags|input_words,HBM[0],WRITE,350,18053.5,100,1.00206,55.5238,
+xilinx_u50_gen3x16_xdma_201920_3-0,runOnfpga_1/m_axi_maxiport1,bloom_filter,HBM[0],READ,1024,1200,10.4167,0.064,833.568,
+
+
+Top Data Transfer: Kernels to Global Memory
+Device,Compute Unit,Number of Transfers,Average Bytes per Transfer,Transfer Efficiency (%),Total Data Transfer (MB),Total Write (MB),Total Read (MB),Total Transfer Rate (MB/s),
+xilinx_u50_gen3x16_xdma_201920_3-0,runOnfpga_1,2750,661.504,16.15,1.81914,0.35072,1.46842,12366.1,
+
+
+Top Kernel Execution
+Kernel Instance Address,Kernel,Context ID,Command Queue ID,Device,Start Time (ms),Duration (ms),Global Work Size,Local Work Size,
+94924056628624,runOnfpga,0,0,xilinx_u50_gen3x16_xdma_201920_3-0,0.057546,0.211429,1:1:1,1:1:1,
+94924056628624,runOnfpga,0,0,xilinx_u50_gen3x16_xdma_201920_3-0,0.056236,0.195025,1:1:1,1:1:1,
+94924056628624,runOnfpga,0,0,xilinx_u50_gen3x16_xdma_201920_3-0,0.061603,0.166167,1:1:1,1:1:1,
+94924056628624,runOnfpga,0,0,xilinx_u50_gen3x16_xdma_201920_3-0,0.053729,0.156888,1:1:1,1:1:1,
+94924056628624,runOnfpga,0,0,xilinx_u50_gen3x16_xdma_201920_3-0,0.052412,0.137651,1:1:1,1:1:1,
+94924056628624,runOnfpga,0,0,xilinx_u50_gen3x16_xdma_201920_3-0,0.050678,0.119544,1:1:1,1:1:1,
+94924056628624,runOnfpga,0,0,xilinx_u50_gen3x16_xdma_201920_3-0,0.0591,0.091158,1:1:1,1:1:1,
+94924056628624,runOnfpga,0,0,xilinx_u50_gen3x16_xdma_201920_3-0,0.054569,0.074661,1:1:1,1:1:1,
+94924056628624,runOnfpga,0,0,xilinx_u50_gen3x16_xdma_201920_3-0,0.049904,0.06234,1:1:1,1:1:1,
+
+
+Top Memory Writes: Host to Global Memory
+Buffer Address,Context ID,Command Queue ID,Start Time (ms),Duration (ms),Buffer Size (KB),Writing Rate(MB/s),
+416256,0,0,25511.5,N/A,175.36,N/A,
+65536,0,0,24684,N/A,175.36,N/A,
+240896,0,0,25207,N/A,175.36,N/A,
+942336,0,0,26802.8,N/A,175.36,N/A,
+766976,0,0,26259.3,N/A,175.36,N/A,
+591616,0,0,25955.6,N/A,175.36,N/A,
+1293056,0,0,27753,N/A,175.36,N/A,
+1117696,0,0,27243.1,N/A,175.36,N/A,
+0,0,0,24674.6,N/A,65.536,N/A,
+
+
+Top Memory Reads: Host to Global Memory
+Buffer Address,Context ID,Command Queue ID,Start Time (ms),Duration (ms),Buffer Size (KB),Reading Rate(MB/s),
+1601984,0,0,86922.5,N/A,43.84,N/A,
+1470464,0,0,68955.8,N/A,43.84,N/A,
+1514304,0,0,77876.6,N/A,43.84,N/A,
+1558144,0,0,86922.5,N/A,43.84,N/A,
+1645824,0,0,104744,N/A,43.84,N/A,
+1777344,0,0,112691,N/A,43.84,N/A,
+1733504,0,0,112691,N/A,43.84,N/A,
+1689664,0,0,112691,N/A,43.84,N/A,
+
+
+Guidance Parameters
+Parameter,Element,Value,
+DEVICE_EXEC_TIME,xilinx_u50_gen3x16_xdma_201920_3-0,0.219071,
+CU_CALLS,xilinx_u50_gen3x16_xdma_201920_3-0|runOnfpga_1,9,
+NUM_MONITORS,xilinx_u50_gen3x16_xdma_201920_3-0|XCL_PERF_MON_ACCEL|1,1,
+NUM_MONITORS,xilinx_u50_gen3x16_xdma_201920_3-0|XCL_PERF_MON_MEMORY|2,2,
+NUM_MONITORS,xilinx_u50_gen3x16_xdma_201920_3-0|XCL_PERF_MON_STR|0,0,
+MIGRATE_MEM,host,18,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[0],1,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[10],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[11],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[12],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[13],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[14],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[15],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[16],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[17],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[18],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[19],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[1],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[20],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[21],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[22],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[23],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[24],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[25],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[26],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[27],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[28],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[29],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[2],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[30],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[31],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[3],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[4],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[5],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[6],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[7],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[8],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|HBM[9],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|PLRAM[0],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|PLRAM[1],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|PLRAM[2],0,
+MEMORY_USAGE,xilinx_u50_gen3x16_xdma_201920_3-0|PLRAM[3],0,
+PLRAM_DEVICE,all,1,
+HBM_DEVICE,all,1,
+KDMA_DEVICE,all,0,
+P2P_DEVICE,all,0,
+P2P_HOST_TRANSFERS,host,0,
+PORT_BIT_WIDTH,runOnfpga_1/m_axi_maxiport0,512,
+PORT_BIT_WIDTH,runOnfpga_1/m_axi_maxiport1,32,
+KERNEL_COUNT,runOnfpga,1,
+OBJECTS_RELEASED,all,1,
+TRACE_MEMORY,all,NA,
+CU_CONTEXT_EN,all,0,
+MAX_PARALLEL_KERNEL_ENQUEUES,runOnfpga,9,
+COMMAND_QUEUE_OOO,94924056229936,1,
+PLRAM_SIZE_BYTES,xilinx_u50_gen3x16_xdma_201920_3-0,131072,
+KERNEL_BUFFER_INFO,runOnfpga|output_flags|HBM[0]|1,350720,
+KERNEL_BUFFER_INFO,runOnfpga|input_words|HBM[0]|1,1402880,
+KERNEL_BUFFER_INFO,runOnfpga|bloom_filter|HBM[0]|1,65536,
+TRACE_BUFFER_FULL,xilinx_u50_gen3x16_xdma_201920_3-0,0,
+MEMORY_TYPE_BIT_WIDTH,xilinx_u50_gen3x16_xdma_201920_3-0|DDR,512,
+MEMORY_TYPE_BIT_WIDTH,xilinx_u50_gen3x16_xdma_201920_3-0|HBM,256,
+MEMORY_TYPE_BIT_WIDTH,xilinx_u50_gen3x16_xdma_201920_3-0|PLRAM,512,
+XRT_INI_SETTING,continuous_trace,0,
+XRT_INI_SETTING,continuous_trace_interval_ms,10,
+XRT_INI_SETTING,data_transfer_trace,coarse,
+XRT_INI_SETTING,launch_waveform,batch,
+XRT_INI_SETTING,lop_trace,0,
+XRT_INI_SETTING,power_profile,0,
+XRT_INI_SETTING,profile,1,
+XRT_INI_SETTING,stall_trace,all,
+XRT_INI_SETTING,timeline_trace,1,
+XRT_INI_SETTING,trace_buffer_size,4095M,
+XRT_INI_SETTING,verbosity,4,
+BUFFER_RD_ACTIVE_TIME_MS,all,722.162,
+BUFFER_WR_ACTIVE_TIME_MS,all,480.898,
+BUFFER_TX_ACTIVE_TIME_MS,all,88017.7,
+APPLICATION_RUN_TIME_MS,all,186091,
+TOTAL_KERNEL_RUN_TIME_MS,all,88007.8,
+
+

@@ -1,0 +1,1722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <wvobject type="group" fp_name="HLS_Process_Summary_group">
+      <obj_property name="label">HLS Process Summary</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="group" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/grp_compute_hash_flags_dataflow_fu_274">
+         <obj_property name="label">runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/grp_compute_hash_flags_dataflow_fu_274</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="UseFullPath">true</obj_property>
+         <obj_property name="ElementShortName">grp_compute_hash_flags_dataflow_fu_274</obj_property>
+         <obj_property name="ObjectShortName">grp_compute_hash_flags_dataflow_fu_274</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">turquoise</obj_property>
+         <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+         <obj_property name="Render_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/grp_compute_hash_flags_dataflow_fu_274.dataflowTxWaveData.Cycles</obj_property>
+         <obj_property name="Value_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/grp_compute_hash_flags_dataflow_fu_274.dataflowTxWaveData.OutStanding</obj_property>
+         <obj_property name="Detail_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/grp_compute_hash_flags_dataflow_fu_274.dataflowTxTooltipData</obj_property>
+         <wvobject type="group" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/compute_hash_flags_U0">
+            <obj_property name="label">runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/compute_hash_flags_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">compute_hash_flags_U0</obj_property>
+            <obj_property name="ObjectShortName">compute_hash_flags_U0</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/compute_hash_flags_U0.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/compute_hash_flags_U0.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/compute_hash_flags_U0.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_512_64_U0/resize_512_64_U0">
+            <obj_property name="label">runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_512_64_U0/resize_512_64_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">resize_512_64_U0</obj_property>
+            <obj_property name="ObjectShortName">resize_512_64_U0</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_512_64_U0/resize_512_64_U0.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_512_64_U0/resize_512_64_U0.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_512_64_U0/resize_512_64_U0.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_256_512_U0/resize_256_512_U0">
+            <obj_property name="label">runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_256_512_U0/resize_256_512_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">resize_256_512_U0</obj_property>
+            <obj_property name="ObjectShortName">resize_256_512_U0</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_256_512_U0/resize_256_512_U0.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_256_512_U0/resize_256_512_U0.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_256_512_U0/resize_256_512_U0.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/buffer_ap_uint_512_U0">
+            <obj_property name="label">runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/buffer_ap_uint_512_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">buffer_ap_uint_512_U0</obj_property>
+            <obj_property name="ObjectShortName">buffer_ap_uint_512_U0</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/buffer_ap_uint_512_U0.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/buffer_ap_uint_512_U0.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/buffer_ap_uint_512_U0.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/buffer_ap_uint_512_1_U0">
+            <obj_property name="label">runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/buffer_ap_uint_512_1_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">buffer_ap_uint_512_1_U0</obj_property>
+            <obj_property name="ObjectShortName">buffer_ap_uint_512_1_U0</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/buffer_ap_uint_512_1_U0.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/buffer_ap_uint_512_1_U0.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/buffer_ap_uint_512_1_U0.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_entry9013_U0/compute_hash_flags_dataflow_entry9013_U0">
+            <obj_property name="label">runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_entry9013_U0/compute_hash_flags_dataflow_entry9013_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">compute_hash_flags_dataflow_entry9013_U0</obj_property>
+            <obj_property name="ObjectShortName">compute_hash_flags_dataflow_entry9013_U0</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_entry9013_U0/compute_hash_flags_dataflow_entry9013_U0.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_entry9013_U0/compute_hash_flags_dataflow_entry9013_U0.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_entry9013_U0/compute_hash_flags_dataflow_entry9013_U0.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc_U0/compute_hash_flags_dataflow_Block_proc_U0">
+            <obj_property name="label">runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc_U0/compute_hash_flags_dataflow_Block_proc_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">compute_hash_flags_dataflow_Block_proc_U0</obj_property>
+            <obj_property name="ObjectShortName">compute_hash_flags_dataflow_Block_proc_U0</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc_U0/compute_hash_flags_dataflow_Block_proc_U0.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc_U0/compute_hash_flags_dataflow_Block_proc_U0.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc_U0/compute_hash_flags_dataflow_Block_proc_U0.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc57_U0/compute_hash_flags_dataflow_Block_proc57_U0">
+            <obj_property name="label">runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc57_U0/compute_hash_flags_dataflow_Block_proc57_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">compute_hash_flags_dataflow_Block_proc57_U0</obj_property>
+            <obj_property name="ObjectShortName">compute_hash_flags_dataflow_Block_proc57_U0</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc57_U0/compute_hash_flags_dataflow_Block_proc57_U0.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc57_U0/compute_hash_flags_dataflow_Block_proc57_U0.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc57_U0/compute_hash_flags_dataflow_Block_proc57_U0.dataflowTxTooltipData</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="device_group">
+      <obj_property name="label">Device &quot;xilinx_u50_gen3x16_xdma_201920_3-0&quot;</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="group" fp_name="bin_group">
+         <obj_property name="label">Binary Container &quot;runOnfpga_hw_emu&quot;</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="group" fp_name="kernel_group">
+            <obj_property name="label">Kernel &quot;runOnfpga&quot; 1:1:1</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject type="group" fp_name="cu_group">
+               <obj_property name="label">Compute Unit: runOnfpga_1</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="isExpanded"></obj_property>
+               <obj_property name="Description_Data">Activity for compute unit runOnfpga_1</obj_property>
+               <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+               <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+               <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Render_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/ap_idle</obj_property>
+               <wvobject type="vbus" fp_name="stall_vbus">
+                  <obj_property name="label">CU Stalls (%)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <obj_property name="Description_Data">CU Functions that are stalling (%)</obj_property>
+                  <obj_property name="Radix">BITCOUNTRADIX</obj_property>
+                  <obj_property name="SHOWPERCENTCOUNT">true</obj_property>
+                  <obj_property name="ShowWaveText">true</obj_property>
+                  <obj_property name="EnumTransactionColorTable">3fffffffffff=blank</obj_property>
+                  <obj_property name="EnumTransactionValueTable">3fffffffffff=blank</obj_property>
+                  <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                  <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_388/ap_ext_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_388: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_388/ap_str_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_388: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_395/ap_ext_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_395: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_395/ap_str_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_395: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_402/ap_ext_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_402: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_402/ap_str_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_402: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_409/ap_ext_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_409: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_409/ap_str_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_409: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_416/ap_ext_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_416: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_416/ap_str_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_416: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_423/ap_ext_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_423: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_423/ap_str_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_423: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_430/ap_ext_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_430: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_430/ap_str_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_430: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_437/ap_ext_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_437: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_437/ap_str_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_437: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_444/ap_ext_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_444: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_444/ap_str_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_444: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_451/ap_ext_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_451: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_451/ap_str_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_451: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_458/ap_ext_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_458: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_458/ap_str_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_458: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_465/ap_ext_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_465: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_465/ap_str_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_465: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_472/ap_ext_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_472: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_472/ap_str_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_472: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_479/ap_ext_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_479: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_479/ap_str_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_479: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_486/ap_ext_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_486: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_486/ap_str_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_486: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_493/ap_ext_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_493: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/grp_MurmurHash2_fu_493/ap_str_blocking_n">
+                     <obj_property name="label">grp_MurmurHash2_fu_493: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_512_64_U0/ap_ext_blocking_n">
+                     <obj_property name="label">resize_512_64_U0: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_512_64_U0/ap_str_blocking_n">
+                     <obj_property name="label">resize_512_64_U0: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_256_512_U0/ap_ext_blocking_n">
+                     <obj_property name="label">resize_256_512_U0: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_256_512_U0/ap_str_blocking_n">
+                     <obj_property name="label">resize_256_512_U0: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/ap_ext_blocking_n">
+                     <obj_property name="label">buffer_ap_uint_512_U0: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/ap_str_blocking_n">
+                     <obj_property name="label">buffer_ap_uint_512_U0: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/ap_ext_blocking_n">
+                     <obj_property name="label">buffer_ap_uint_512_1_U0: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/ap_str_blocking_n">
+                     <obj_property name="label">buffer_ap_uint_512_1_U0: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_entry9013_U0/ap_ext_blocking_n">
+                     <obj_property name="label">compute_hash_flags_dataflow_entry9013_U0: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_entry9013_U0/ap_str_blocking_n">
+                     <obj_property name="label">compute_hash_flags_dataflow_entry9013_U0: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc_U0/ap_ext_blocking_n">
+                     <obj_property name="label">compute_hash_flags_dataflow_Block_proc_U0: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc_U0/ap_str_blocking_n">
+                     <obj_property name="label">compute_hash_flags_dataflow_Block_proc_U0: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc57_U0/ap_ext_blocking_n">
+                     <obj_property name="label">compute_hash_flags_dataflow_Block_proc57_U0: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc57_U0/ap_str_blocking_n">
+                     <obj_property name="label">compute_hash_flags_dataflow_Block_proc57_U0: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="trans_group">
+                  <obj_property name="label">Data Transfers</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <obj_property name="isExpanded"></obj_property>
+                  <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/runOnfpga_1/m_axi_maxiport0">
+                  </wvobject>
+                  <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/runOnfpga_1/m_axi_maxiport1">
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="functions">
+                  <obj_property name="label">User Functions</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <obj_property name="isExpanded"></obj_property>
+                  <wvobject type="group" fp_name="func_group">
+                     <obj_property name="label">Function: grp_compute_hash_flags_dataflow_fu_274</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="isExpanded"></obj_property>
+                     <obj_property name="Description_Data">Activity for function grp_compute_hash_flags_dataflow_fu_274</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+                     <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                     <obj_property name="Render_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/ap_idle</obj_property>
+                     <if_functional fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/grp_compute_hash_flags_dataflow_fu_274">
+                        <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/grp_compute_hash_flags_dataflow_fu_274">
+                           <obj_property name="ElementShortName">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="ObjectShortName">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="label">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="Description_Data">Dataflow/Pipeline Activity for function grp_compute_hash_flags_dataflow_fu_274</obj_property>
+                        </wvobject>
+                     </if_functional>
+                     <wvobject type="vbus" fp_name="stall_vbus">
+                        <obj_property name="label">Function Stalls</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <obj_property name="EnumTransactionColorTable">3=blank</obj_property>
+                        <obj_property name="EnumTransactionValueTable">3=blank;0=stall;1=stall;2=stall</obj_property>
+                        <obj_property name="ShowWaveText">false</obj_property>
+                        <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                        <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                        <obj_property name="UseCustomSignalColor">true</obj_property>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/ap_ext_blocking_n">
+                           <obj_property name="label">External Memory</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/ap_str_blocking_n">
+                           <obj_property name="label">External Stream</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                     </wvobject>
+                     <wvobject type="group" fp_name="io_group">
+                        <obj_property name="label">Function I/O</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <wvobject type="group" fp_name="mem_group">
+                           <obj_property name="label">output_flags</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="isExpanded"></obj_property>
+                           <wvobject type="group" fp_name="addr_group">
+                              <obj_property name="label">Read Address</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Read Transactions on function AXI-MM port m_axi_output_flags_V</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/m_axi_output_flags_V_ARADDR">
+                                 <obj_property name="label">ARADDR</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/m_axi_output_flags_V_ARLEN">
+                                 <obj_property name="label">ARLEN</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/m_axi_output_flags_V_ARVALID">
+                                 <obj_property name="label">ARVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/m_axi_output_flags_V_ARREADY">
+                                 <obj_property name="label">ARREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="data_group">
+                              <obj_property name="label">Read Data</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Read Transactions on function AXI-MM port m_axi_output_flags_V</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/m_axi_output_flags_V_RDATA">
+                                 <obj_property name="label">RDATA</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/m_axi_output_flags_V_RVALID">
+                                 <obj_property name="label">RVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/m_axi_output_flags_V_RREADY">
+                                 <obj_property name="label">RREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/m_axi_output_flags_V_RLAST">
+                                 <obj_property name="label">RLAST</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="addr_group">
+                              <obj_property name="label">Write Address</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Write Transactions on function AXI-MM port m_axi_output_flags_V</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/m_axi_output_flags_V_AWADDR">
+                                 <obj_property name="label">AWADDR</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/m_axi_output_flags_V_AWLEN">
+                                 <obj_property name="label">AWLEN</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/m_axi_output_flags_V_AWVALID">
+                                 <obj_property name="label">AWVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/m_axi_output_flags_V_AWREADY">
+                                 <obj_property name="label">AWREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="data_group">
+                              <obj_property name="label">Write Data</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Write Transactions on function AXI-MM port m_axi_output_flags_V</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/m_axi_output_flags_V_WDATA">
+                                 <obj_property name="label">WDATA</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/m_axi_output_flags_V_WVALID">
+                                 <obj_property name="label">WVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/m_axi_output_flags_V_WREADY">
+                                 <obj_property name="label">WREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/m_axi_output_flags_V_WLAST">
+                                 <obj_property name="label">WLAST</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/output_flags_V_offset">
+                           <obj_property name="label">output_flags_V_offset</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/input_words_V_offset">
+                           <obj_property name="label">input_words_V_offset</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_0_d0">
+                           <obj_property name="label">bloom_filter_0_d0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_0_q0">
+                           <obj_property name="label">bloom_filter_0_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_0_d1">
+                           <obj_property name="label">bloom_filter_0_d1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_0_q1">
+                           <obj_property name="label">bloom_filter_0_q1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_1_d0">
+                           <obj_property name="label">bloom_filter_1_d0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_1_q0">
+                           <obj_property name="label">bloom_filter_1_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_1_d1">
+                           <obj_property name="label">bloom_filter_1_d1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_1_q1">
+                           <obj_property name="label">bloom_filter_1_q1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_2_d0">
+                           <obj_property name="label">bloom_filter_2_d0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_2_q0">
+                           <obj_property name="label">bloom_filter_2_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_2_d1">
+                           <obj_property name="label">bloom_filter_2_d1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_2_q1">
+                           <obj_property name="label">bloom_filter_2_q1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_3_d0">
+                           <obj_property name="label">bloom_filter_3_d0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_3_q0">
+                           <obj_property name="label">bloom_filter_3_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_3_d1">
+                           <obj_property name="label">bloom_filter_3_d1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_3_q1">
+                           <obj_property name="label">bloom_filter_3_q1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_4_d0">
+                           <obj_property name="label">bloom_filter_4_d0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_4_q0">
+                           <obj_property name="label">bloom_filter_4_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_4_d1">
+                           <obj_property name="label">bloom_filter_4_d1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_4_q1">
+                           <obj_property name="label">bloom_filter_4_q1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_5_d0">
+                           <obj_property name="label">bloom_filter_5_d0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_5_q0">
+                           <obj_property name="label">bloom_filter_5_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_5_d1">
+                           <obj_property name="label">bloom_filter_5_d1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_5_q1">
+                           <obj_property name="label">bloom_filter_5_q1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_6_d0">
+                           <obj_property name="label">bloom_filter_6_d0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_6_q0">
+                           <obj_property name="label">bloom_filter_6_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_6_d1">
+                           <obj_property name="label">bloom_filter_6_d1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_6_q1">
+                           <obj_property name="label">bloom_filter_6_q1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_7_d0">
+                           <obj_property name="label">bloom_filter_7_d0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_7_q0">
+                           <obj_property name="label">bloom_filter_7_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_7_d1">
+                           <obj_property name="label">bloom_filter_7_d1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/bloom_filter_7_q1">
+                           <obj_property name="label">bloom_filter_7_q1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/total_size">
+                           <obj_property name="label">total_size</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                     </wvobject>
+                  </wvobject>
+                  <wvobject type="group" fp_name="func_group">
+                     <obj_property name="label">Function: grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="isExpanded"></obj_property>
+                     <obj_property name="Description_Data">Activity for function grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+                     <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                     <obj_property name="Render_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/ap_idle</obj_property>
+                     <if_functional fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/compute_hash_flags_U0">
+                        <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/compute_hash_flags_U0">
+                           <obj_property name="ElementShortName">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="ObjectShortName">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="label">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="Description_Data">Dataflow/Pipeline Activity for function grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0</obj_property>
+                        </wvobject>
+                     </if_functional>
+                     <wvobject type="vbus" fp_name="stall_vbus">
+                        <obj_property name="label">Function Stalls</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <obj_property name="EnumTransactionColorTable">3=blank</obj_property>
+                        <obj_property name="EnumTransactionValueTable">3=blank;0=stall;1=stall;2=stall</obj_property>
+                        <obj_property name="ShowWaveText">false</obj_property>
+                        <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                        <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                        <obj_property name="UseCustomSignalColor">true</obj_property>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/ap_ext_blocking_n">
+                           <obj_property name="label">External Memory</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/ap_str_blocking_n">
+                           <obj_property name="label">External Stream</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                     </wvobject>
+                     <wvobject type="group" fp_name="io_group">
+                        <obj_property name="label">Function I/O</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/bloom_filter_local_0_q0">
+                           <obj_property name="label">bloom_filter_local_0_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/bloom_filter_local_0_q1">
+                           <obj_property name="label">bloom_filter_local_0_q1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/bloom_filter_local_1_q0">
+                           <obj_property name="label">bloom_filter_local_1_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/bloom_filter_local_1_q1">
+                           <obj_property name="label">bloom_filter_local_1_q1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/bloom_filter_local_2_q0">
+                           <obj_property name="label">bloom_filter_local_2_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/bloom_filter_local_2_q1">
+                           <obj_property name="label">bloom_filter_local_2_q1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/bloom_filter_local_3_q0">
+                           <obj_property name="label">bloom_filter_local_3_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/bloom_filter_local_3_q1">
+                           <obj_property name="label">bloom_filter_local_3_q1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/bloom_filter_local_4_q0">
+                           <obj_property name="label">bloom_filter_local_4_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/bloom_filter_local_4_q1">
+                           <obj_property name="label">bloom_filter_local_4_q1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/bloom_filter_local_5_q0">
+                           <obj_property name="label">bloom_filter_local_5_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/bloom_filter_local_5_q1">
+                           <obj_property name="label">bloom_filter_local_5_q1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/bloom_filter_local_6_q0">
+                           <obj_property name="label">bloom_filter_local_6_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/bloom_filter_local_6_q1">
+                           <obj_property name="label">bloom_filter_local_6_q1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/bloom_filter_local_7_q0">
+                           <obj_property name="label">bloom_filter_local_7_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/bloom_filter_local_7_q1">
+                           <obj_property name="label">bloom_filter_local_7_q1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                     </wvobject>
+                  </wvobject>
+                  <wvobject type="group" fp_name="func_group">
+                     <obj_property name="label">Function: grp_compute_hash_flags_dataflow_fu_274/resize_512_64_U0</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="isExpanded"></obj_property>
+                     <obj_property name="Description_Data">Activity for function grp_compute_hash_flags_dataflow_fu_274/resize_512_64_U0</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+                     <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                     <obj_property name="Render_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_512_64_U0/ap_idle</obj_property>
+                     <if_functional fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_512_64_U0/resize_512_64_U0">
+                        <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_512_64_U0/resize_512_64_U0">
+                           <obj_property name="ElementShortName">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="ObjectShortName">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="label">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="Description_Data">Dataflow/Pipeline Activity for function grp_compute_hash_flags_dataflow_fu_274/resize_512_64_U0</obj_property>
+                        </wvobject>
+                     </if_functional>
+                     <wvobject type="vbus" fp_name="stall_vbus">
+                        <obj_property name="label">Function Stalls</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <obj_property name="EnumTransactionColorTable">3=blank</obj_property>
+                        <obj_property name="EnumTransactionValueTable">3=blank;0=stall;1=stall;2=stall</obj_property>
+                        <obj_property name="ShowWaveText">false</obj_property>
+                        <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                        <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                        <obj_property name="UseCustomSignalColor">true</obj_property>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_512_64_U0/ap_ext_blocking_n">
+                           <obj_property name="label">External Memory</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_512_64_U0/ap_str_blocking_n">
+                           <obj_property name="label">External Stream</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                     </wvobject>
+                     <wvobject type="group" fp_name="io_group">
+                        <obj_property name="label">Function I/O</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                     </wvobject>
+                  </wvobject>
+                  <wvobject type="group" fp_name="func_group">
+                     <obj_property name="label">Function: grp_compute_hash_flags_dataflow_fu_274/resize_256_512_U0</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="isExpanded"></obj_property>
+                     <obj_property name="Description_Data">Activity for function grp_compute_hash_flags_dataflow_fu_274/resize_256_512_U0</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+                     <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                     <obj_property name="Render_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_256_512_U0/ap_idle</obj_property>
+                     <if_functional fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_256_512_U0/resize_256_512_U0">
+                        <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_256_512_U0/resize_256_512_U0">
+                           <obj_property name="ElementShortName">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="ObjectShortName">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="label">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="Description_Data">Dataflow/Pipeline Activity for function grp_compute_hash_flags_dataflow_fu_274/resize_256_512_U0</obj_property>
+                        </wvobject>
+                     </if_functional>
+                     <wvobject type="vbus" fp_name="stall_vbus">
+                        <obj_property name="label">Function Stalls</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <obj_property name="EnumTransactionColorTable">3=blank</obj_property>
+                        <obj_property name="EnumTransactionValueTable">3=blank;0=stall;1=stall;2=stall</obj_property>
+                        <obj_property name="ShowWaveText">false</obj_property>
+                        <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                        <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                        <obj_property name="UseCustomSignalColor">true</obj_property>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_256_512_U0/ap_ext_blocking_n">
+                           <obj_property name="label">External Memory</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/resize_256_512_U0/ap_str_blocking_n">
+                           <obj_property name="label">External Stream</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                     </wvobject>
+                     <wvobject type="group" fp_name="io_group">
+                        <obj_property name="label">Function I/O</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                     </wvobject>
+                  </wvobject>
+                  <wvobject type="group" fp_name="func_group">
+                     <obj_property name="label">Function: grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="isExpanded"></obj_property>
+                     <obj_property name="Description_Data">Activity for function grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+                     <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                     <obj_property name="Render_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/ap_idle</obj_property>
+                     <if_functional fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/buffer_ap_uint_512_U0">
+                        <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/buffer_ap_uint_512_U0">
+                           <obj_property name="ElementShortName">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="ObjectShortName">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="label">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="Description_Data">Dataflow/Pipeline Activity for function grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0</obj_property>
+                        </wvobject>
+                     </if_functional>
+                     <wvobject type="vbus" fp_name="stall_vbus">
+                        <obj_property name="label">Function Stalls</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <obj_property name="EnumTransactionColorTable">3=blank</obj_property>
+                        <obj_property name="EnumTransactionValueTable">3=blank;0=stall;1=stall;2=stall</obj_property>
+                        <obj_property name="ShowWaveText">false</obj_property>
+                        <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                        <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                        <obj_property name="UseCustomSignalColor">true</obj_property>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/ap_ext_blocking_n">
+                           <obj_property name="label">External Memory</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/ap_str_blocking_n">
+                           <obj_property name="label">External Stream</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                     </wvobject>
+                     <wvobject type="group" fp_name="io_group">
+                        <obj_property name="label">Function I/O</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <wvobject type="group" fp_name="mem_group">
+                           <obj_property name="label">output_flags</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="isExpanded"></obj_property>
+                           <wvobject type="group" fp_name="addr_group">
+                              <obj_property name="label">Read Address</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Read Transactions on function AXI-MM port m_axi_output_flags_V</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/m_axi_output_flags_V_ARADDR">
+                                 <obj_property name="label">ARADDR</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/m_axi_output_flags_V_ARLEN">
+                                 <obj_property name="label">ARLEN</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/m_axi_output_flags_V_ARVALID">
+                                 <obj_property name="label">ARVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/m_axi_output_flags_V_ARREADY">
+                                 <obj_property name="label">ARREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="data_group">
+                              <obj_property name="label">Read Data</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Read Transactions on function AXI-MM port m_axi_output_flags_V</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/m_axi_output_flags_V_RDATA">
+                                 <obj_property name="label">RDATA</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/m_axi_output_flags_V_RVALID">
+                                 <obj_property name="label">RVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/m_axi_output_flags_V_RREADY">
+                                 <obj_property name="label">RREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/m_axi_output_flags_V_RLAST">
+                                 <obj_property name="label">RLAST</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="addr_group">
+                              <obj_property name="label">Write Address</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Write Transactions on function AXI-MM port m_axi_output_flags_V</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/m_axi_output_flags_V_AWADDR">
+                                 <obj_property name="label">AWADDR</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/m_axi_output_flags_V_AWLEN">
+                                 <obj_property name="label">AWLEN</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/m_axi_output_flags_V_AWVALID">
+                                 <obj_property name="label">AWVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/m_axi_output_flags_V_AWREADY">
+                                 <obj_property name="label">AWREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="data_group">
+                              <obj_property name="label">Write Data</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Write Transactions on function AXI-MM port m_axi_output_flags_V</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/m_axi_output_flags_V_WDATA">
+                                 <obj_property name="label">WDATA</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/m_axi_output_flags_V_WVALID">
+                                 <obj_property name="label">WVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/m_axi_output_flags_V_WREADY">
+                                 <obj_property name="label">WREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/m_axi_output_flags_V_WLAST">
+                                 <obj_property name="label">WLAST</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                        </wvobject>
+                     </wvobject>
+                  </wvobject>
+                  <wvobject type="group" fp_name="func_group">
+                     <obj_property name="label">Function: grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="isExpanded"></obj_property>
+                     <obj_property name="Description_Data">Activity for function grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+                     <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                     <obj_property name="Render_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/ap_idle</obj_property>
+                     <if_functional fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/buffer_ap_uint_512_1_U0">
+                        <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/buffer_ap_uint_512_1_U0">
+                           <obj_property name="ElementShortName">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="ObjectShortName">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="label">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="Description_Data">Dataflow/Pipeline Activity for function grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0</obj_property>
+                        </wvobject>
+                     </if_functional>
+                     <wvobject type="vbus" fp_name="stall_vbus">
+                        <obj_property name="label">Function Stalls</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <obj_property name="EnumTransactionColorTable">3=blank</obj_property>
+                        <obj_property name="EnumTransactionValueTable">3=blank;0=stall;1=stall;2=stall</obj_property>
+                        <obj_property name="ShowWaveText">false</obj_property>
+                        <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                        <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                        <obj_property name="UseCustomSignalColor">true</obj_property>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/ap_ext_blocking_n">
+                           <obj_property name="label">External Memory</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/ap_str_blocking_n">
+                           <obj_property name="label">External Stream</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                     </wvobject>
+                     <wvobject type="group" fp_name="io_group">
+                        <obj_property name="label">Function I/O</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <wvobject type="group" fp_name="mem_group">
+                           <obj_property name="label">output_flags</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="isExpanded"></obj_property>
+                           <wvobject type="group" fp_name="addr_group">
+                              <obj_property name="label">Read Address</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Read Transactions on function AXI-MM port m_axi_output_flags_V</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/m_axi_output_flags_V_ARADDR">
+                                 <obj_property name="label">ARADDR</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/m_axi_output_flags_V_ARLEN">
+                                 <obj_property name="label">ARLEN</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/m_axi_output_flags_V_ARVALID">
+                                 <obj_property name="label">ARVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/m_axi_output_flags_V_ARREADY">
+                                 <obj_property name="label">ARREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="data_group">
+                              <obj_property name="label">Read Data</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Read Transactions on function AXI-MM port m_axi_output_flags_V</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/m_axi_output_flags_V_RDATA">
+                                 <obj_property name="label">RDATA</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/m_axi_output_flags_V_RVALID">
+                                 <obj_property name="label">RVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/m_axi_output_flags_V_RREADY">
+                                 <obj_property name="label">RREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/m_axi_output_flags_V_RLAST">
+                                 <obj_property name="label">RLAST</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="addr_group">
+                              <obj_property name="label">Write Address</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Write Transactions on function AXI-MM port m_axi_output_flags_V</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/m_axi_output_flags_V_AWADDR">
+                                 <obj_property name="label">AWADDR</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/m_axi_output_flags_V_AWLEN">
+                                 <obj_property name="label">AWLEN</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/m_axi_output_flags_V_AWVALID">
+                                 <obj_property name="label">AWVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/m_axi_output_flags_V_AWREADY">
+                                 <obj_property name="label">AWREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="data_group">
+                              <obj_property name="label">Write Data</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Write Transactions on function AXI-MM port m_axi_output_flags_V</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/m_axi_output_flags_V_WDATA">
+                                 <obj_property name="label">WDATA</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/m_axi_output_flags_V_WVALID">
+                                 <obj_property name="label">WVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/m_axi_output_flags_V_WREADY">
+                                 <obj_property name="label">WREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/m_axi_output_flags_V_WLAST">
+                                 <obj_property name="label">WLAST</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                        </wvobject>
+                     </wvobject>
+                  </wvobject>
+                  <wvobject type="group" fp_name="func_group">
+                     <obj_property name="label">Function: grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_entry9013_U0</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="isExpanded"></obj_property>
+                     <obj_property name="Description_Data">Activity for function grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_entry9013_U0</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+                     <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                     <obj_property name="Render_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_entry9013_U0/ap_idle</obj_property>
+                     <if_functional fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_entry9013_U0/compute_hash_flags_dataflow_entry9013_U0">
+                        <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_entry9013_U0/compute_hash_flags_dataflow_entry9013_U0">
+                           <obj_property name="ElementShortName">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="ObjectShortName">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="label">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="Description_Data">Dataflow/Pipeline Activity for function grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_entry9013_U0</obj_property>
+                        </wvobject>
+                     </if_functional>
+                     <wvobject type="vbus" fp_name="stall_vbus">
+                        <obj_property name="label">Function Stalls</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <obj_property name="EnumTransactionColorTable">3=blank</obj_property>
+                        <obj_property name="EnumTransactionValueTable">3=blank;0=stall;1=stall;2=stall</obj_property>
+                        <obj_property name="ShowWaveText">false</obj_property>
+                        <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                        <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                        <obj_property name="UseCustomSignalColor">true</obj_property>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_entry9013_U0/ap_ext_blocking_n">
+                           <obj_property name="label">External Memory</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_entry9013_U0/ap_str_blocking_n">
+                           <obj_property name="label">External Stream</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                     </wvobject>
+                     <wvobject type="group" fp_name="io_group">
+                        <obj_property name="label">Function I/O</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_entry9013_U0/total_size">
+                           <obj_property name="label">total_size</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_entry9013_U0/output_flags_V_offset">
+                           <obj_property name="label">output_flags_V_offset</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_entry9013_U0/input_words_V_offset">
+                           <obj_property name="label">input_words_V_offset</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                     </wvobject>
+                  </wvobject>
+                  <wvobject type="group" fp_name="func_group">
+                     <obj_property name="label">Function: grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc_U0</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="isExpanded"></obj_property>
+                     <obj_property name="Description_Data">Activity for function grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc_U0</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+                     <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                     <obj_property name="Render_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc_U0/ap_idle</obj_property>
+                     <if_functional fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc_U0/compute_hash_flags_dataflow_Block_proc_U0">
+                        <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc_U0/compute_hash_flags_dataflow_Block_proc_U0">
+                           <obj_property name="ElementShortName">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="ObjectShortName">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="label">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="Description_Data">Dataflow/Pipeline Activity for function grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc_U0</obj_property>
+                        </wvobject>
+                     </if_functional>
+                     <wvobject type="vbus" fp_name="stall_vbus">
+                        <obj_property name="label">Function Stalls</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <obj_property name="EnumTransactionColorTable">3=blank</obj_property>
+                        <obj_property name="EnumTransactionValueTable">3=blank;0=stall;1=stall;2=stall</obj_property>
+                        <obj_property name="ShowWaveText">false</obj_property>
+                        <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                        <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                        <obj_property name="UseCustomSignalColor">true</obj_property>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc_U0/ap_ext_blocking_n">
+                           <obj_property name="label">External Memory</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc_U0/ap_str_blocking_n">
+                           <obj_property name="label">External Stream</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                     </wvobject>
+                     <wvobject type="group" fp_name="io_group">
+                        <obj_property name="label">Function I/O</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                     </wvobject>
+                  </wvobject>
+                  <wvobject type="group" fp_name="func_group">
+                     <obj_property name="label">Function: grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc57_U0</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="isExpanded"></obj_property>
+                     <obj_property name="Description_Data">Activity for function grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc57_U0</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+                     <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                     <obj_property name="Render_Data">/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc57_U0/ap_idle</obj_property>
+                     <if_functional fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc57_U0/compute_hash_flags_dataflow_Block_proc57_U0">
+                        <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc57_U0/compute_hash_flags_dataflow_Block_proc57_U0">
+                           <obj_property name="ElementShortName">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="ObjectShortName">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="label">Dataflow/Pipeline Activity</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="Description_Data">Dataflow/Pipeline Activity for function grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc57_U0</obj_property>
+                        </wvobject>
+                     </if_functional>
+                     <wvobject type="vbus" fp_name="stall_vbus">
+                        <obj_property name="label">Function Stalls</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <obj_property name="EnumTransactionColorTable">3=blank</obj_property>
+                        <obj_property name="EnumTransactionValueTable">3=blank;0=stall;1=stall;2=stall</obj_property>
+                        <obj_property name="ShowWaveText">false</obj_property>
+                        <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                        <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                        <obj_property name="UseCustomSignalColor">true</obj_property>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc57_U0/ap_ext_blocking_n">
+                           <obj_property name="label">External Memory</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/runOnfpga_1/inst/grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc57_U0/ap_str_blocking_n">
+                           <obj_property name="label">External Stream</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                     </wvobject>
+                     <wvobject type="group" fp_name="io_group">
+                        <obj_property name="label">Function I/O</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                     </wvobject>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

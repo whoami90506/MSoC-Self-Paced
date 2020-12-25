@@ -1,0 +1,2 @@
+performing high-level synthesis for kernel: runOnfpga
+Log file: /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/vivado_hls.log

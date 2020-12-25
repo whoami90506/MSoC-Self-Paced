@@ -1,0 +1,117 @@
+{
+  "version": "1.0",
+  "modules": {
+      "runOnfpga_runOnfpga": {
+      "proto_instances": {
+        "grp_compute_hash_flags_dataflow_fu_274/grp_compute_hash_flags_dataflow_fu_274": {
+          "silent": true,
+          "interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+          "ports": {
+            "AP_CLK": { "actual": "ap_clk"},
+            "AP_RESET": { "actual": "ap_rst"},
+            "AP_START": { "actual": "ap_start"},
+            "AP_DONE": { "actual": "ap_done"},
+            "AP_CONTINUE": { "actual": "ap_continue", "optional":true },
+            "AP_READY": { "actual": "ap_ready", "optional":true }
+          }
+        },
+        "grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_U0/compute_hash_flags_U0": {
+          "silent": true,
+          "interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+          "ports": {
+            "AP_CLK": { "actual": "ap_clk"},
+            "AP_RESET": { "actual": "ap_rst"},
+            "AP_START": { "actual": "ap_start"},
+            "AP_DONE": { "actual": "ap_done"},
+            "AP_CONTINUE": { "actual": "ap_continue", "optional":true },
+            "AP_READY": { "actual": "ap_ready", "optional":true }
+          }
+        },
+        "grp_compute_hash_flags_dataflow_fu_274/resize_512_64_U0/resize_512_64_U0": {
+          "silent": true,
+          "interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+          "ports": {
+            "AP_CLK": { "actual": "ap_clk"},
+            "AP_RESET": { "actual": "ap_rst"},
+            "AP_START": { "actual": "ap_start"},
+            "AP_DONE": { "actual": "ap_done"},
+            "AP_CONTINUE": { "actual": "ap_continue", "optional":true },
+            "AP_READY": { "actual": "ap_ready", "optional":true }
+          }
+        },
+        "grp_compute_hash_flags_dataflow_fu_274/resize_256_512_U0/resize_256_512_U0": {
+          "silent": true,
+          "interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+          "ports": {
+            "AP_CLK": { "actual": "ap_clk"},
+            "AP_RESET": { "actual": "ap_rst"},
+            "AP_START": { "actual": "ap_start"},
+            "AP_DONE": { "actual": "ap_done"},
+            "AP_CONTINUE": { "actual": "ap_continue", "optional":true },
+            "AP_READY": { "actual": "ap_ready", "optional":true }
+          }
+        },
+        "grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_U0/buffer_ap_uint_512_U0": {
+          "silent": true,
+          "interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+          "ports": {
+            "AP_CLK": { "actual": "ap_clk"},
+            "AP_RESET": { "actual": "ap_rst"},
+            "AP_START": { "actual": "ap_start"},
+            "AP_DONE": { "actual": "ap_done"},
+            "AP_CONTINUE": { "actual": "ap_continue", "optional":true },
+            "AP_READY": { "actual": "ap_ready", "optional":true }
+          }
+        },
+        "grp_compute_hash_flags_dataflow_fu_274/buffer_ap_uint_512_1_U0/buffer_ap_uint_512_1_U0": {
+          "silent": true,
+          "interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+          "ports": {
+            "AP_CLK": { "actual": "ap_clk"},
+            "AP_RESET": { "actual": "ap_rst"},
+            "AP_START": { "actual": "ap_start"},
+            "AP_DONE": { "actual": "ap_done"},
+            "AP_CONTINUE": { "actual": "ap_continue", "optional":true },
+            "AP_READY": { "actual": "ap_ready", "optional":true }
+          }
+        },
+        "grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_entry9013_U0/compute_hash_flags_dataflow_entry9013_U0": {
+          "silent": true,
+          "interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+          "ports": {
+            "AP_CLK": { "actual": "ap_clk"},
+            "AP_RESET": { "actual": "ap_rst"},
+            "AP_START": { "actual": "ap_start"},
+            "AP_DONE": { "actual": "ap_done"},
+            "AP_CONTINUE": { "actual": "ap_continue", "optional":true },
+            "AP_READY": { "actual": "ap_ready", "optional":true }
+          }
+        },
+        "grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc_U0/compute_hash_flags_dataflow_Block_proc_U0": {
+          "silent": true,
+          "interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+          "ports": {
+            "AP_CLK": { "actual": "ap_clk"},
+            "AP_RESET": { "actual": "ap_rst"},
+            "AP_START": { "actual": "ap_start"},
+            "AP_DONE": { "actual": "ap_done"},
+            "AP_CONTINUE": { "actual": "ap_continue", "optional":true },
+            "AP_READY": { "actual": "ap_ready", "optional":true }
+          }
+        },
+        "grp_compute_hash_flags_dataflow_fu_274/compute_hash_flags_dataflow_Block_proc57_U0/compute_hash_flags_dataflow_Block_proc57_U0": {
+          "silent": true,
+          "interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+          "ports": {
+            "AP_CLK": { "actual": "ap_clk"},
+            "AP_RESET": { "actual": "ap_rst"},
+            "AP_START": { "actual": "ap_start"},
+            "AP_DONE": { "actual": "ap_done"},
+            "AP_CONTINUE": { "actual": "ap_continue", "optional":true },
+            "AP_READY": { "actual": "ap_ready", "optional":true }
+          }
+        }
+      }
+    }
+  }
+}

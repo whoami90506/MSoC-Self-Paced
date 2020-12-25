@@ -1,0 +1,19 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ compile can be found at:
+	Reports: /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/report_dir/runOnfpga_hw_emu
+	Log files: /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/log_dir/runOnfpga_hw_emu
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/runOnfpga_hw_emu.xo.compile_summary, at Fri Dec 25 12:34:42 2020
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Fri Dec 25 12:34:42 2020
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/report_dir/runOnfpga_hw_emu/v++_compile_runOnfpga_hw_emu_guidance.html', at Fri Dec 25 12:34:43 2020
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/xilinx_u50_gen3x16_xdma_201920_3.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/hw/hw.xsa'
+INFO: [v++ 60-585] Compiling for hardware emulation target
+INFO: [v++ 60-423]   Target device: xilinx_u50_gen3x16_xdma_201920_3
+INFO: [v++ 60-242] Creating kernel: 'runOnfpga'
+
+===>The following messages were generated while  performing high-level synthesis for kernel: runOnfpga Log file: /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/vivado_hls.log :
+INFO: [v++ 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+ERROR: [v++ 203-103] Array 'bloom_filter_local' : partitioned elements number (16384) has exeeded the threshold (1024), which may cause long run-time.
+ERROR: [v++ 200-70] Pre-synthesis failed.
+ERROR: [v++ 60-300] Failed to build kernel(ip) runOnfpga, see log for details: /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/hw_emu/temp_dir/runOnfpga_hw_emu/runOnfpga/vivado_hls.log
+ERROR: [v++ 60-599] Kernel compilation failed to complete
+ERROR: [v++ 60-592] Failed to finish compilation

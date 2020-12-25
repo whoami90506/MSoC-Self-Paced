@@ -1,0 +1,41 @@
+
+****** Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source /opt/Xilinx/Vivado/2019.2/scripts/vivado_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/opt/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/vivado_hls'
+INFO: [HLS 200-10] For user 'team03-b05064' on host 'Msoc' (Linux_x86_64 version 5.4.0-58-generic) on Fri Dec 25 12:42:39 CST 2020
+INFO: [HLS 200-10] On os Ubuntu 18.04.5 LTS
+INFO: [HLS 200-10] In directory '/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/sw_emu/temp_dir/runOnfpga_sw_emu/runOnfpga'
+Sourcing Tcl script 'runOnfpga.tcl'
+INFO: [HLS 200-10] Creating and opening project '/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/sw_emu/temp_dir/runOnfpga_sw_emu/runOnfpga/runOnfpga'.
+INFO: [HLS 200-10] Adding design file '/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp' to the project
+INFO: [HLS 200-10] Creating and opening solution '/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/build/my_opt/kernel_8/sw_emu/temp_dir/runOnfpga_sw_emu/runOnfpga/runOnfpga/solution'.
+INFO: [HLS 200-10] Setting target device to 'xcu50-fsvh2104-2-e'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.333ns.
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_export -vivado_optimization_level=0
+INFO: [HLS 200-435] Setting 'config_export -vivado_optimization_level' configuration: config_export -vivado_phys_opt=none
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_compile -pipeline_loops=64
+INFO: [XFORM 203-1171] Pipeline the innermost loop with trip count more than 64 or its parent loop when its trip count is less than or equal 64.
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_compile -name_max_length=80
+INFO: [XFORM 203-1161] The maximum of name length is set into 80.
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_schedule -enable_dsp_full_reg=1
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_rtl -register_reset_num=3
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_rtl -module_auto_prefix=1
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_interface -m_axi_addr64=1
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: set_clock_uncertainty 27%
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 0.9ns.
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 0.9ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file '/home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp' ... 
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body: /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp:92:51
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body: /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp:96:51
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body: /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp:103:49
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body: /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp:106:50
+WARNING: [HLS 200-471] Dataflow form checks found 4 issue(s) in file /home/team03-b05064/Vitis-Tutorials/Hardware_Accelerators/Design_Tutorials/02-bloom/reference_files/compute_score_fpga_kernel_opt.cpp
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 965.211 ; gain = 532.145 ; free physical = 10377 ; free virtual = 16362
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 965.211 ; gain = 532.145 ; free physical = 10377 ; free virtual = 16362
+HLS completed successfully
+INFO: [Common 17-206] Exiting vivado_hls at Fri Dec 25 12:42:53 2020...
