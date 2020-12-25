@@ -62,7 +62,7 @@ if __name__ == "__main__":
     #     plt.plot(xSeq, inBuffer0, 'b.', xSeq, outBuffer0 / n32DCGain, 'r.')
     # plt.grid(True)
     # plt.show() # In Jupyter, press Tab + Shift keys to show plot then redo run
-    # if(outBuffer0[255]==)
+    if outBuffer0[255] == -1452: print("\npass")
     print("============================")
     print("Exit process")
 
