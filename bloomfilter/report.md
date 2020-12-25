@@ -19,7 +19,7 @@ There is a global 2D array in this design as followed:
 
 static unsigned int bloom_filter_local[PARALLELISATION][bloom_filter_size];
 ```
-The original design only seperate first dimention, yet the second dimention is also short enough to be partitioned. Therefore I would like to try to seperate all dimentions.
+The original design only separate first dimension, yet the second dimension is also short enough to be partitioned. Therefore I would like to try to separate all dimensions.
 ```c++
 // original
 static unsigned int bloom_filter_local[PARALLELISATION][bloom_filter_size];
@@ -30,7 +30,7 @@ static unsigned int bloom_filter_local[PARALLELISATION][bloom_filter_size];
 #pragma HLS ARRAY_PARTITION variable=bloom_filter_local complete dim=0
 ```
 
-However, the synthesis tool does not support array complete partition with size over 1024. I can not try to seperate all elements in arrays.
+However, the synthesis tool does not support array complete partition with size over 1024. I can not try to separate all elements in arrays.
 
 
 ## HLS screenshot
